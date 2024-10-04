@@ -11,7 +11,7 @@ Choiru's shared repository: https://github.com/choiruzain-latrobe/Assignment2.gi
 Make sure for **your case it is in Private**
 ## Access Database
 1 **Plsql Cheat Sheet:**
-You can refer to the PostgreSQL cheat sheet [here](https://www.postgresqltutorial.com/postgresql-cheat-sheet/).
+Youu can refer to the PostgreSQL cheat sheet [here](https://www.postgresqltutorial.com/postgresql-cheat-sheet/).
 
 2 **Know the Container ID:**
 To find out the container ID, execute the following command:
