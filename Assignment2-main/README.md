@@ -146,7 +146,13 @@ Server: nginx/1.25.1
 Vary: Origin
 X-Powered-By: Express
 ｛
-"message": "Contact was updated successfully."<img width="896" alt="Screenshot 2024-10-17 at 6 48 07 PM" src="https://github.com/user-attachments/assets/eb2fbf01-d172-4533-8421-7583b1c21489">
+"message": "Contact was updated successfully."
+}
+```
+
+### PHONE API
+
+<img width="896" alt="Screenshot 2024-10-17 at 6 48 07 PM" src="https://github.com/user-attachments/assets/eb2fbf01-d172-4533-8421-7583b1c21489">
 <img width="739" alt="Screenshot 2024-10-17 at 6 41 53 PM" src="https://github.com/user-attachments/assets/abd24d58-59d9-4c0f-b373-473239ea6f73">
 <img width="801" alt="Screenshot 2024-10-17 at 6 41 11 PM" src="https://github.com/user-attachments/assets/343b2f98-1fd8-45c2-a20f-165141dc0c7f">
 <img width="726" alt="Screenshot 2024-10-17 at 6 38 29 PM" src="https://github.com/user-attachments/assets/d211b091-231a-428f-bd22-b867c653cb38">
@@ -158,7 +164,3 @@ X-Powered-By: Express
 <img width="789" alt="Screenshot 2024-10-17 at 8 49 59 PM" src="https://github.com/user-attachments/assets/3730ef1c-7dab-4548-8642-10a55f4758a7">
 <img width="1047" alt="Screenshot 2024-10-17 at 8 48 11 PM" src="https://github.com/user-attachments/assets/bdab7b3f-b05c-42ce-958c-e94be58a8ee3">
 <img width="645" alt="Screenshot 2024-10-17 at 8 46 19 PM" src="https://github.com/user-attachments/assets/900cea7a-fda6-45bb-8ea0-0015f5d26218">
-
-}
-```
-
