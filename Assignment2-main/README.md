@@ -68,61 +68,64 @@ Replace `container_ID` with the actual ID of the container you want to execute.
 
 1. Add contacts API  (POST)
 ```bash
-http post http://localhost/api/contacts name="Choiru"
-        
-choiruzain@MacMarichoy-7 TestSystem % http post http://localhost/api/contacts name="Choiru"
-HTTP/1.1 200 OK
+mallareddyannapureddy@Mallareddys-MacBook-Air ~ % http post http://localhost/api/contacts
+• name="malla"
+НТТР/1.1 200 0K
 Access-Control-Allow-Origin: http://localhost:3000
 Connection: keep-alive
-Content-Length: 102
+Content-Length: 101
 Content-Type: application/json; charset=utf-8
-Date: Thu, 08 Aug 2024 21:01:53 GMT
-ETag: W/"66-FmPYAaIkyQoroDwP2JsAZjWTAxs"
+Date: Thu, 17 Oct 2024 06:56:46 GMT
+ETag: W/"65-B9zCWDQPpcZ/JF3/nzEjlwyPUm8"
 Server: nginx/1.25.1
 Vary: Origin
 X-Powered-By: Express
-
 {
-"createdAt": "2024-08-08T21:01:53.017Z",
-"id": 1,
-"name": "Choiru",
-"updatedAt": "2024-08-08T21:01:53.017Z"
-}
+"createdAt": "2024-10-17T06:56:46.715Z",
+"id": 2,
+"name": "malla",
+"updatedAt": "2024-10-17T06:56:46.715Z"
+｝
 
 ```
 2 Get contacts API  (GET)
 
 ```bash
-http get http://localhost/api/contacts
-
-
-choiruzain@MacMarichoy-7 TestSystem % http get http://localhost/api/contacts
-HTTP/1.1 200 OK
+[mallareddyannapureddy@Mallareddys-MacBook-Air ~ % http get http://localhost/api/contacts
+TTP/1.1 200 0K
 Access-Control-Allow-Origin: http://localhost:3000
 Connection: keep-alive
 Content-Length: 104
 Content-Type: application/json; charset=utf-8
-Date: Thu, 08 Aug 2024 21:04:58 GMT
-ETag: W/"68-V+4KuL2xahYt8YAkKG6rKdR7wHg"
+Date: Thu, 17 Oct 2024 06:59:40 GMT
+ETag: W/"68-+horxCNkEgzd45by2mSZ6elwn0g"
 Server: nginx/1.25.1
 Vary: Origin
 X-Powered-By: Express
-
-[
-{
-"createdAt": "2024-08-08T21:01:53.017Z",
+｛
+"createdAt": "2024-10-17T06:46:33.320Z",
 "id": 1,
-"name": "Choiru",
-"updatedAt": "2024-08-08T21:01:53.017Z"
-}
-]
-
-
+"name": "rajesh",
+"updatedAt": "2024-10-17T06:59:36.195"
+7
 ```
 3. Show/create the API commmand to delete the contacts (DELETE)
 
 ```bash
-
+[mallareddyannapureddy@Mallareddys-MacBook-Air ~ % http DELETE http://localhost/api/contacts/2
+НТТР/1.1 200 0K
+Access-Control-Allow-Origin: http://localhost:3000
+Connection: keep-alive
+Content-Length: 47
+Content-Type: application/json; charset=utf-8
+Date: Thu, 17 Oct 2024 06:57:58 GMT
+ETag: W/"2f-i0D5Q04IGfH+OpTTITmyTnSzFvU"
+Server: nginx/1.25.1
+Vary: Origin
+X-Powered-By: Express
+{
+"message": "Contact was deleted successfully!"
+｝
 
 
 
@@ -131,8 +134,31 @@ X-Powered-By: Express
 
 4. Show/create the API command to edit the contacts (PUT)
 ```
-http get http://localhost/api/contacts/1/phones
+mallareddyannapureddy@Mallareddys-MacBook-Air ~ % http PUT http://localhost/api/contacts/1 name="rajesh"
+НТТР/1.1 200 0K
+Access-Control-Allow-Origin: http://localhost:3000
+Connection: keep-alive
+Content-Length: 47
+Content-Type: application/json; charset=utf-8
+Date: Thu, 17 Oct 2024 06:59:36 GMT
+ETag: W/ "2f-9DEigpdI8FmatdY6qgJYc7CM5hQ"
+Server: nginx/1.25.1
+Vary: Origin
+X-Powered-By: Express
+｛
+"message": "Contact was updated successfully."<img width="896" alt="Screenshot 2024-10-17 at 6 48 07 PM" src="https://github.com/user-attachments/assets/eb2fbf01-d172-4533-8421-7583b1c21489">
+<img width="739" alt="Screenshot 2024-10-17 at 6 41 53 PM" src="https://github.com/user-attachments/assets/abd24d58-59d9-4c0f-b373-473239ea6f73">
+<img width="801" alt="Screenshot 2024-10-17 at 6 41 11 PM" src="https://github.com/user-attachments/assets/343b2f98-1fd8-45c2-a20f-165141dc0c7f">
+<img width="726" alt="Screenshot 2024-10-17 at 6 38 29 PM" src="https://github.com/user-attachments/assets/d211b091-231a-428f-bd22-b867c653cb38">
+<img width="781" alt="Screenshot 2024-10-17 at 6 38 02 PM" src="https://github.com/user-attachments/assets/5bfd06f9-77b3-4ac6-beba-c3968d460356">
+<img width="684" alt="Screenshot 2024-10-17 at 6 36 19 PM" src="https://github.com/user-attachments/assets/cb01d422-d65d-4b01-9460-2c0dbce0f00e">
+<img width="717" alt="Screenshot 2024-10-17 at 6 35 37 PM" src="https://github.com/user-attachments/assets/7d0be62f-15dc-4d42-944e-307e2cb85d9e">
+<img width="630" alt="Screenshot 2024-10-17 at 6 34 21 PM" src="https://github.com/user-attachments/assets/84e13d60-cc2d-48c9-bf93-fd455f1b857d">
+<img width="739" alt="Screenshot 2024-10-17 at 8 50 58 PM" src="https://github.com/user-attachments/assets/59fdd28b-73c6-49d7-bf40-1e5f7d1053e8">
+<img width="789" alt="Screenshot 2024-10-17 at 8 49 59 PM" src="https://github.com/user-attachments/assets/3730ef1c-7dab-4548-8642-10a55f4758a7">
+<img width="1047" alt="Screenshot 2024-10-17 at 8 48 11 PM" src="https://github.com/user-attachments/assets/bdab7b3f-b05c-42ce-958c-e94be58a8ee3">
+<img width="645" alt="Screenshot 2024-10-17 at 8 46 19 PM" src="https://github.com/user-attachments/assets/900cea7a-fda6-45bb-8ea0-0015f5d26218">
 
+}
 ```
 
-### Phone API
